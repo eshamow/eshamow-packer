@@ -1,0 +1,16 @@
+{
+  "name": "eshamow-packer",
+  "version": "0.1.0",
+  "author": "eshamow",
+  "summary": "Maintain Hashicorp Packer installation",
+  "license": "Apache 2.0",
+  "source": "https://github.com/eshamow/eshamow-packer.git",
+  "project_page": "https://github.com/eshamow/eshamow-packer",
+  "issues_url": "https://github.com/eshamow/eshamow-packer/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ]
+}
