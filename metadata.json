@@ -11,6 +11,14 @@
     {
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "nanliu-archive",
+      "version_requirement": ">= 0.1.4"
+    },
+    {
+      "name": "AlexCline-dirtree",
+      "version_requirement": ">= 0.2.1"
     }
   ]
 }
