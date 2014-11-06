@@ -8,8 +8,8 @@ class packer::install {
   archive { "${::packer::installer_dir}/${::packer::installer_filename}":
     ensure        => present,
     source        => "${::packer::installer_uri}/${::packer::installer_filename}",
-#    checksum      => $::packer::checksum,
-#    checksum_type => $::packer::checksum_type,
+    checksum      => $::packer::checksum,
+    checksum_type => $::packer::checksum_type,
     tls_verify    => false,
     extract       => true,
     extract_path  => $::packer::target_path,
